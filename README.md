@@ -1,12 +1,14 @@
 # ARM-Shellcode
 ARM AARCH64 Reverse Shell.
 
+<img width="721" alt="image" src="https://github.com/0xXyc/ARM-Shellcode/assets/42036798/87b9284d-7dc3-4ada-9338-7155a85c6162">
+
 # Compiling
 ## Linux/AARCH64 as a guest OS on a MAC or other ARM-based device
 `as arm-revshell.s -o arm-revshell.o && ld arm-revshell.o -o arm-revshell`
 
 ### Begin a Netcat Listener
-`nc -lvp 1337`
+`nc -lnvp 1337`
 
 ### Execute
 
@@ -16,7 +18,7 @@ Then, run `./arm-revshell` to execute.
 `aarch-linux-gnu-as arm-revshell.s -o arm-revshell.o && aarch-linux-gnu-ld arm-revshell.o -o arm-revshell`
 
 ### Begin a Netcat Listener
-`nc -lvp 1337`
+`nc -lnvp 1337`
 
 ### Execute
 
