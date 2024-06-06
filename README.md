@@ -22,4 +22,4 @@ Then, run `./arm-revshell` to execute.
 
 ### Execute
 
-Then, run `qemu-aarch64 ./arm-revshell` to execute.`
+Then, run `qemu-aarch64 ./arm-revshell` to execute.
