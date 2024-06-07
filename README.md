@@ -6,7 +6,7 @@ ARM AARCH64 Reverse Shell.
 `as arm-revshell.s -o arm-revshell.o && ld arm-revshell.o -o arm-revshell`
 
 ### Begin a Netcat Listener
-`nc -lnvp 1337`
+`nc -lvp 1337`
 
 ### Execute
 
@@ -16,7 +16,7 @@ Then, run `./arm-revshell` to execute.
 `aarch-linux-gnu-as arm-revshell.s -o arm-revshell.o && aarch-linux-gnu-ld arm-revshell.o -o arm-revshell`
 
 ### Begin a Netcat Listener
-`nc -lnvp 1337`
+`nc -lvp 1337`
 
 ### Execute
 
