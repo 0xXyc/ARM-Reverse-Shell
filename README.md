@@ -7,6 +7,8 @@ I am still fixing the ASM code with the prompt to be fully functional and cooper
 ## Custom Prompt PoC
 <img width="559" alt="image" src="https://github.com/0xXyc/ARM-Reverse-Shell/assets/42036798/f7c42cdd-cb4c-43df-b4d6-13064b5e518e">
 
+## Wrapper Code PoC
+<img width="513" alt="image" src="https://github.com/0xXyc/ARM-Reverse-Shell/assets/42036798/5a54251b-5c07-4ef1-bd81-5582e2f9e2d9">
 
 # Compiling 🛠️
 ## Linux/AARCH64 as a guest OS on a MAC or other ARM-based device
@@ -52,4 +54,5 @@ We can now easily call our shellcode within a C program.
 `./shellcode-exec`
 
 **CONGRATS, SHELLCODE EXECUTED! ENJOY!**
+
 
