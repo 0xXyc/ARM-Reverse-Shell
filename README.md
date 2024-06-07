@@ -1,12 +1,15 @@
 # ARM-Shellcode
 ARM AARCH64 Reverse Shell.
 
+## Note 💡
+I am still fixing the ASM code with the prompt to be fully functional and cooperative with the wrapper code. For some reason, I am getting an unbelievable amount of null-bytes within it upon extracting the shellcode. That doesn't appear to happen with `arm-revshell.s`. I will be solving this soon.
+
 # Compiling
 ## Linux/AARCH64 as a guest OS on a MAC or other ARM-based device
 `as arm-revshell.s -o arm-revshell.o && ld arm-revshell.o -o arm-revshell`
 
 ### Begin a Netcat Listener
-`nc -lvp 1337`
+`nc -lnvp 1337`
 
 ### Execute
 
@@ -16,7 +19,7 @@ Then, run `./arm-revshell` to execute.
 `aarch-linux-gnu-as arm-revshell.s -o arm-revshell.o && aarch-linux-gnu-ld arm-revshell.o -o arm-revshell`
 
 ### Begin a Netcat Listener
-`nc -lvp 1337`
+`nc -lnvp 1337`
 
 ### Execute
 
