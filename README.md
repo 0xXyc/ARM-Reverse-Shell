@@ -3,6 +3,7 @@ ARM AARCH64 Reverse Shell.
 
 > Note 💡
 I am still fixing the ASM code with the prompt to be fully functional and cooperative with the wrapper code. For some reason, I am getting an unbelievable amount of null-bytes within it upon extracting the shellcode. That doesn't appear to happen with `arm-revshell.s`. I will be solving this soon.
+> To do: Fix null-byte situation.
 
 ## Custom Prompt PoC
 <img width="559" alt="image" src="https://github.com/0xXyc/ARM-Reverse-Shell/assets/42036798/f7c42cdd-cb4c-43df-b4d6-13064b5e518e">
