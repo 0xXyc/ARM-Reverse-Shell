@@ -1,9 +1,9 @@
-# ARM Reverse Shell + `clone()` (similar to `fork()`)
+# ARM Reverse Shell + `clone`
 ARM AARCH64 Reverse Shell.
 ![image](https://github.com/0xXyc/ARM-Reverse-Shell/assets/42036798/ed56e21b-a27d-40a6-80c7-c14df6705c70)
 
 ## Capabilities
-A small, stealthy, ARM64 reverse shell that utilizes `clone()`, similar to `fork()`, in order to spawn a child process and run in the background. Ultimately to look less suspicious.
+A small, stealthy, ARM64 reverse shell that utilizes `clone`, similar to `fork`, in order to spawn a child process and run in the background. Ultimately to look less suspicious.
 
 # Compiling 🛠️
 ## Linux/AARCH64 as a guest OS on a MAC or other ARM-based device
