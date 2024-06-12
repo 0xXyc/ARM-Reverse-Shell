@@ -1,4 +1,4 @@
-# ARM Reverse Shell + `clone` (similar to `fork()`)
+# ARM Reverse Shell + `clone()` (similar to `fork()`)
 ARM AARCH64 Reverse Shell.
 ![image](https://github.com/0xXyc/ARM-Reverse-Shell/assets/42036798/ed56e21b-a27d-40a6-80c7-c14df6705c70)
 
