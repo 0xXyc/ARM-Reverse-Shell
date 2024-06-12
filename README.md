@@ -38,7 +38,7 @@ This is to show you that we can achieve the same cyber result, just in a differe
 `objcopy -O binary arm-revshell arm-revshell.bin`
 
 **Then, we need to utilize `hexdump` to "carve" out the shellcode from the binary object:**
-`hexdump -v -e '"\\""x" 1/1 "%02x" ""' arm-revshell > shellcode.txt`
+`hexdump -v -e '"\\""x" 1/1 "%02x" ""' arm-revshell.bin > shellcode.txt`
 
 Lastly, we need to copy the contents of `shellcode.txt` into the `shellcode[]` buffer, within the `shellcode-exec.c` file.
 
